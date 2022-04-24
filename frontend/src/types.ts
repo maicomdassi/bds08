@@ -1,8 +1,3 @@
-export type SalesByDate = {
-  date: string;
-  sum: number;
-};
-
 export type ChartSeriesData = {
   x: string;
   y: number;
@@ -17,4 +12,9 @@ export type FilterData = {
 export type PieChartConfig = {
   labels: string[];
   series: number[];
+};
+
+export type SalesByStore = {
+  storeName: string;
+  sum: number;
 };
